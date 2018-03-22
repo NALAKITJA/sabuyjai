@@ -1,29 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SaBuyJai</title>
+    <title>Sabuyjai</title>
     <%= csrf_meta_tags %>
-    <%= favicon_link_tag 'favicon.png', rel: 'icon', type: 'image/png', size: '57x57' %>
-    <%= favicon_link_tag 'favicon.png', rel: 'icon', type: 'image/png', size: '60x60' %>
-    <%= favicon_link_tag 'favicon.png', rel: 'icon', type: 'image/png', size: '72x72' %>
-    <%= favicon_link_tag 'favicon.png', rel: 'icon', type: 'image/png', size: '76x76' %>
-    <%= favicon_link_tag 'favicon.png', rel: 'icon', type: 'image/png', size: '114x114' %>
-    <%= favicon_link_tag 'favicon.png', rel: 'icon', type: 'image/png', size: '152x152' %>
-    <%= favicon_link_tag 'favicon.png', rel: 'icon', type: 'image/png', size: '180x180' %>
-    <%= favicon_link_tag 'favicon.png', rel: 'icon', type: 'image/png', size: '192x192' %>
 
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <div class="container-fluid">
-      <%= yield %>
-    </div>
+    <%= yield %>
   </body>
 </html>
